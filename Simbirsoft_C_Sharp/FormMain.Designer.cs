@@ -1,6 +1,6 @@
 ﻿namespace Simbirsoft_C_Sharp
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -50,7 +50,7 @@
             this.tbDictionaryPath.Location = new System.Drawing.Point(6, 46);
             this.tbDictionaryPath.Name = "tbDictionaryPath";
             this.tbDictionaryPath.ReadOnly = true;
-            this.tbDictionaryPath.Size = new System.Drawing.Size(276, 20);
+            this.tbDictionaryPath.Size = new System.Drawing.Size(225, 20);
             this.tbDictionaryPath.TabIndex = 0;
             this.tbDictionaryPath.Text = "Dictionary file";
             this.tbDictionaryPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -62,7 +62,7 @@
             this.tbTextPath.Location = new System.Drawing.Point(6, 19);
             this.tbTextPath.Name = "tbTextPath";
             this.tbTextPath.ReadOnly = true;
-            this.tbTextPath.Size = new System.Drawing.Size(276, 20);
+            this.tbTextPath.Size = new System.Drawing.Size(225, 20);
             this.tbTextPath.TabIndex = 1;
             this.tbTextPath.Text = "Text file";
             this.tbTextPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -71,22 +71,22 @@
             // btnTextFD
             // 
             this.btnTextFD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnTextFD.Location = new System.Drawing.Point(288, 19);
+            this.btnTextFD.Location = new System.Drawing.Point(237, 19);
             this.btnTextFD.Name = "btnTextFD";
-            this.btnTextFD.Size = new System.Drawing.Size(54, 20);
+            this.btnTextFD.Size = new System.Drawing.Size(105, 20);
             this.btnTextFD.TabIndex = 2;
-            this.btnTextFD.Text = "...";
+            this.btnTextFD.Text = "Browse...";
             this.btnTextFD.UseVisualStyleBackColor = true;
             this.btnTextFD.Click += new System.EventHandler(this.btnTextFD_Click);
             // 
             // btnDictionaryFD
             // 
             this.btnDictionaryFD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnDictionaryFD.Location = new System.Drawing.Point(288, 45);
+            this.btnDictionaryFD.Location = new System.Drawing.Point(237, 45);
             this.btnDictionaryFD.Name = "btnDictionaryFD";
-            this.btnDictionaryFD.Size = new System.Drawing.Size(54, 20);
+            this.btnDictionaryFD.Size = new System.Drawing.Size(105, 20);
             this.btnDictionaryFD.TabIndex = 3;
-            this.btnDictionaryFD.Text = "...";
+            this.btnDictionaryFD.Text = "Browse...";
             this.btnDictionaryFD.UseVisualStyleBackColor = true;
             this.btnDictionaryFD.Click += new System.EventHandler(this.btnDictionaryFD_Click);
             // 
