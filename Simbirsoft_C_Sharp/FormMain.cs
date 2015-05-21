@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Collections;
 
 namespace Simbirsoft_C_Sharp
 {
@@ -17,7 +18,14 @@ namespace Simbirsoft_C_Sharp
         bool isDictionaryFileChosen = false;
         int maximumLines;
         FileStream fs;
-        Dictionary<int, string> dictionary;
+
+        Dictionary<int, string> dictionary; // Will work good!
+        List<string> list; // Will work fine, but not as good as Dictionary
+        Stack<string> stack; //Will work, but we need 2 stacks at the same time, or refilling stack everytime. Not good!
+        Queue<string> queue; //Same minuses as Stack, not good too.
+        string[] array; //Will work slowly than Dictionary and List, not good!
+        Array Array; //Same as below
+        Hashtable hashtable; //Not good to use in the current context.
 
         public FormMain()
         {
