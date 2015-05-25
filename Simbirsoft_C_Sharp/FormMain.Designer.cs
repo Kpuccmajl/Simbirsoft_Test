@@ -158,7 +158,7 @@
             // 
             this.folderBrowserDialog.Description = "Choose HtmlFile destination folder";
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,7 +167,7 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCreateHTML);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.ShowIcon = false;
             this.Text = "Simbirsoft_Test";
             this.groupBox1.ResumeLayout(false);
@@ -185,13 +185,13 @@
         private System.Windows.Forms.Button btnTextFD;
         private System.Windows.Forms.Button btnDictionaryFD;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnCreateHTML;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.OpenFileDialog openFileDialogText;
         private System.Windows.Forms.OpenFileDialog openFileDialogDictionary;
-        private System.Windows.Forms.TextBox tbMaximumLines;
         private System.Windows.Forms.GroupBox groupBox2;
         public System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
+        public System.Windows.Forms.Button btnCreateHTML;
+        public System.Windows.Forms.TextBox tbMaximumLines;
     }
 }
 
